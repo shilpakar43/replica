@@ -92,7 +92,7 @@ const Herobody = () => {
                                         <Col xs={2}> Paid</Col>
                                         <Col xs={1}>^</Col>
                                         <Row>
-                                            <Col className='fs-n2'>
+                                            <Col className='fs-n'>
                                             Cybersecurity specilist
                                             </Col>
                                         </Row>
