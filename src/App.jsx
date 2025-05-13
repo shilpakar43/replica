@@ -1,5 +1,5 @@
 import { Button, Row, Col,Card, Container, InputGroup } from 'react-bootstrap'
-import React from 'react'
+import React, { useEffect } from 'react'
 import Form from 'react-bootstrap/Form';
 import Dropdown from 'react-bootstrap/Dropdown';
 
@@ -9,6 +9,9 @@ import Herobody from './components/hero';
 
 function App() {
 
+  useEffect(()=>{
+    console.log(window.innerWidth);
+  },[])
   return (
     <>
       <Container fluid className='m-0 p-0'>

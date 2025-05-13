@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Container, Button, Dropdown } from 'react-bootstrap'
+import { Row, Col, Container,Dropdown } from 'react-bootstrap'
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
@@ -10,7 +10,7 @@ const Herobody = () => {
             <Row>
                 <Col>
                     <Row>
-                        <Col xs={12} sm={12} md={12} lg={7} xl={7} className='bg-primary-subtle mt-4 rounded-5 mb-3'>
+                        <Col xs={12} sm={12} md={12} lg={6} xl={6} className='bg-primary-subtle mt-4 rounded-5 mb-3'>
                             <Row>
                                 <Col xs={8} sm={8} md={9} lg={10} xxl={10}>
                                     <h2 className='ml-4 mt-4'>Incometracker</h2>
@@ -129,7 +129,7 @@ const Herobody = () => {
                                 <Accordion.Item eventKey="1">
                                     <Accordion.Header>
 
-                                        <Col xs={1} sm={1} md={1} lg={1} xl={1} className=' mt-3'>
+                                        <Col xs={1} sm={1} md={1} lg={1}  xl={1} className=' mt-3'>
                                             <i className="bi bi-bricks"></i>
                                         </Col>
                                         <Col xs={11} sm={10} md={8} lg={10} xl={10} className='mt-3'>
@@ -246,13 +246,13 @@ const Herobody = () => {
                                     <Row className='d-flex  border border-black rounded-pill py-1'>
                                         <Col >
                                             <Row>
-                                                <Col xs={1} sm={1} md={1} lg={2} xl={2} className='mt-3 b-3 fs-2' >
+                                                <Col xs={1} sm={1} md={1} lg={1} xl={2} className='mt-3 b- fs-2' >
                                                     <i className="bi bi-person-circle"></i>
                                                 </Col>
-                                                <Col xs={9} sm={9} md={9} lg={8} xl={8}>
+                                                <Col xs={9} sm={9} md={9} lg={9} xl={8}>
                                                     <Row>
                                                         <Col xs={8} sm={8} md={8} lg={9} xl={8}>
-                                                            <h5 className='b-0 m-0 mt-3'>Randy Gouse</h5>
+                                                            <h5 className='b-0 m-0 mt-3 '>Randy Gouse</h5>
                                                         </Col>
                                                         <Col xs={2} sm={2} md={4} lg={3} xl={3} className='mt-3'>
                                                             <Badge pill bg="secondary">
@@ -268,9 +268,9 @@ const Herobody = () => {
                                                     </Row>
                                                 </Col>
                                                 <Col xs={2} sm={2} md={2} lg={2} xl={2} className='p-0 mt-3 ' >
-                                                    <Button>
+                                                    <button>
                                                         +
-                                                    </Button>
+                                                    </button>
                                                 </Col>
                                             </Row>
                                         </Col>
@@ -302,17 +302,17 @@ const Herobody = () => {
                                                     </Row>
                                                 </Col>
                                                 <Col xs={2} sm={2} md={2} lg={2} xl={1} className='p-0 mt-3 ' >
-                                                    <Button>
+                                                    <button>
                                                         +
-                                                    </Button>
+                                                    </button>
                                                 </Col>
                                             </Row>
                                         </Col>
                                     </Row>
 
                                 </Col>
-                                <br />
-                                <Col xs={12} sm={12} md={6} lg={4} xl={6} className='d-flex mt-4 mr-4' >
+                                
+                                <Col xs={12} sm={12} md={6} lg={4} xl={6} className='d-flex mt-4 ' >
                                     <Card>
                                         <Card.Body>
                                             <Row> <Card.Title>Card Title</Card.Title></Row>
@@ -332,7 +332,7 @@ const Herobody = () => {
                         </Col>
 
                         <Col xs={12} sm={12} md={12} lg={5} xl={5} className='mt-4'>
-                            <Row>
+                            <Row className='mb-2'>
                                 <Col xs={10} md={12} sm={10} >
                                     <Row>
                                         <Col xs={7} sm={7} md={9} lg={8} xl={8}>
@@ -347,7 +347,7 @@ const Herobody = () => {
 
                                 </Col>
 
-                            </Row><br />
+                            </Row>
                             <Row>
                                 <Col xs={12} sm={12} md={12} lg={12} >
                                     <Row>
